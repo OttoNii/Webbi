@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yhdistetty</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            background: url('kuvat/Yhdistetty.jpg');
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .sidebar {
+            width: 250px;
+            background: #222;
+            color: white;
+            position: fixed;
+            height: 100%;
+            padding: 30px;
+        }
+        .sidebar h2 {
+            margin-bottom: 80px; 
+        }
+        .sidebar ul {
+            font-size: 1.4em;
+            width: 100%;
+        }
+        .sidebar .nav-link.active {
+            background-color: #444;
+            border-left: 4px solid #fff;
+        }
+        .content {
+            margin-left: 270px;
+            padding: 20px;
+        }
+        .footer {
+            margin-left: 270px;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .footer .card {
+            flex: 1;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .footer .card .left, .footer .card .right {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .main-container {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.85);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: relative;
+            }
+            .content {
+                margin-left: 0;
+            }
+            .footer {
+                margin-left: 0;
+            }
+            .footer .card {
+                flex-direction: column;
+            }
+            .footer .card .left, .footer .card .right {
+                flex: none;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h2><a href="Etusivu.html" class="text-white text-decoration-none">Hiihtolaji<br>Info</a></h2>
+        <ul class="nav flex-column">
+            <li class="nav-item"><a href="MakiHyppy.html" class="nav-link text-white">Mäkihyppy</a></li>
+            <li class="nav-item"><a href="Yhdistetty.html" class="nav-link text-white active">Yhdistetty</a></li>
+            <li class="nav-item"><a href="MaastoHiihto.html" class="nav-link text-white">Maastohiihto</a></li>
+        </ul>
+    </div>
+    <div class="main-container">
+    <div class="content">
+        <h1>Tervetuloa!</h1>
+        <div class="card p-3">
+            <h5>Mäkihyppy</h5>
+            <p>Mäkihyppy on talviurheilulaji, jossa hypätään suksilla hyppyrimäestä mahdollisimman tyylikkäästi ja pitkälle. Laji on peräisin Norjasta...</p>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="card p-3">
+                    <h5>Viimeisin kilpailu</h5>
+                    <p>Paikkakunta - Maa</p>
+                    <p><i class="fas fa-medal" style="color: gold;"></i> Voittaja - Matti Nykänen</p>
+                    <p><i class="fas fa-medal" style="color: silver;"></i> Hopea - Janne Ahonen</p>
+                    <p><i class="fas fa-medal" style="color: #cd7f32;"></i> Pronssi - Takanobu Okabe</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card p-3">
+                    <h5>Tulevat kilpailut</h5>
+                    <p><a href="#">Tähän kalenteri linkki FIS:in kalenteriin</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="card p-3 d-flex flex-row">
+        
+        <div class="left">
+            <h5>Yhteystiedot</h5>
+            <p>Osoite:</p>
+            <p>Hiihtotie 10 D41</p>
+            <p>012345 Hiihtokylä</p>
+            <p>Hiihtomaa</p>
+        </div>
+        <div class="right">
+            <p><i class="fas fa-envelope"></i> hiihto.info@gmail.fi</p>
+            <p><i class="fas fa-phone"></i> 045 678 9012</p>
+        </div>
+    </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
