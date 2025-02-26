@@ -32,7 +32,7 @@
             width: 100%;
         }
         .sidebar .nav-link.active {
-            background-color: #444;
+            background-color: #555;
             border-left: 4px solid #fff;
         }
         .content {
@@ -75,6 +75,13 @@
                 height: auto;
                 position: relative;
             }
+            .sidebar h2 {
+                font-size: 1.5em;
+                margin-bottom: 20px;
+            }
+            .sidebar ul {
+                font-size: 1.2em;
+            }
             .content {
                 margin-left: 0;
             }
@@ -102,9 +109,9 @@
     </div>
     <div class="main-container">
     <div class="content">
-        <h1>Tervetuloa!</h1>
+        <h1 style="font-weight: bold;">Tervetuloa!</h1>
         <div class="card p-3">
-            <h5>Mäkihyppy</h5>
+            <h5 style="font-weight: bold;">Mäkihyppy</h5>
             <p>Mäkihyppy (vanh. mäenlasku) on talviurheilulaji, jossa hypätään suksilla hyppyrimäestä mahdollisimman tyylikkäästi ja mahdollisimman pitkälle. Hyppy katsotaan tyylikkääksi, kun hyppääjä suorittaa ilmalennon ja alastulon hallitusti. Laji keksittiin Norjassa. Mäkihypyssä hyppääjä lähtee liikkeelle vauhtimäen yläosassa olevalta puomilta, laskee mahdollisimman aerodynaamisessa kyyryasennossa alas ramppia, jonka jyrkkyys pienenee loppua kohti, ja ponnistaa hyppyrin nokalta ilmaan tavoitteenaan lentää mahdollisimman pitkälle. Hypyn kokonaispistemäärä koostuu pituuspisteistä, tuomarien antamista tyylipisteistä, tuulesta saaduista plus(myötätuuli) tai miinus(vastatuuli) pisteistä ja mahdollisesta puomikompensaatiosta.</p>
         </div>
         <div class="row mt-4">
@@ -124,13 +131,17 @@
                 </div>
             </div>
         </div>
+        <div class="card p-3 mt-4">
+            <h5>Uusin artikkeli</h5>
+            <p><a href="#">Linkki uusimpaan artikkeliin maastohiihdosta</a></p>
+        </div>
     </div>
 </div>
 <div class="footer">
     <div class="card p-3 d-flex flex-row">
         
         <div class="left">
-            <h5>Yhteystiedot</h5>
+            <h5 style="font-weight: bold;">Yhteystiedot</h5>
             <p>Hiihtotie 10 D41</p>
             <p>012345 Hiihtokylä</p>
             <p>Hiihtomaa</p>
