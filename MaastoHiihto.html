@@ -70,6 +70,19 @@
             padding: 20px;
             margin-bottom: 10px;
         }
+        .col-md-5 {
+            padding: 20px;
+        }
+        .col-md-4 {
+            padding: 10px;
+        }
+        .center-img {
+            display: block;
+            margin: 0 auto;
+            padding-top: 10px;
+            width: 50%;
+            height: auto;
+        }
         @media (max-width: 768px) {
             .sidebar {
                 width: 100%;
@@ -96,6 +109,9 @@
                 flex: none;
                 width: 100%;
             }
+            .col-md-5 {
+               padding: 20px;
+            }
         }
     </style>
 </head>
@@ -115,20 +131,20 @@
             <h5 style="font-weight: bold;">Maastohiihto</h5>
             <p>Maastohiihto (murtomaahiihto, usein myös pelkkä hiihto) on tasamaalla, mäkisessä maastossa tai vesistöjen jääpeitteellä tapahtuva hiihtomuoto, josta käytännössä kaikki hiihtolajit ovat kehittyneet. Maastohiihdossa hiihtäjä liikkuu usein valmiilla ladulla suksia ja sauvoja käyttäen, mutta myös umpihangella hiihtäminen on mahdollista. Kaikelle hiihdolle ominaista on suksien liu’un hyväksi käyttäminen lumen päällä liikuttaessa, useimmiten varsinkin tasamaalla ja ylämäessä käytetään apuna sauvoja. Hiihtotyylejä on yhtä monta kuin hiihtäjää. Hiihtotapoja on kuitenkin vain kaksi erilaista: luistelu eli vapaa hiihtotapa ja perinteinen hiihtotapa. </p>
         </div>
-        <div class="row mt-4">
-            <div class="col-md-6">
+        <div class="row mt-4 justify-content-md-center">
+            <div class="col-md-5">
                 <div class="card p-3">
-                    <h5>Viimeisin kilpailu</h5>
+                    <h5 style="font-weight: bold;" >Viimeisin kilpailu</h5>
                     <p>Lahti - <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Finland.svg" alt="Finnish flag" style="width: 20px; height: auto;"> Suomi <br> 15km Perinteinen väliaikalähtö</p>
                     <p><i class="fas fa-medal" style="color: gold;"></i> Voittaja - Iivo Niskanen</p>
                     <p><i class="fas fa-medal" style="color: silver;"></i> Hopea - Perttu Hyvärinen</p>
                     <p><i class="fas fa-medal" style="color: #cd7f32;"></i> Pronssi - Harald Östberg Amudsen</p>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <div class="card p-3">
-                    <h5>Tulevat kilpailut</h5>
-                    <p><a href="#">Tähän kalenteri linkki FIS:in kalenteriin</a></p>
+                    <h5 style="font-weight: bold;" >Tulevat kilpailut</h5>
+                    <p><a href="#"><img src="kuvat/KalenterikuvakeLinkkiFissinKalenteriin.jpg" alt="Kalenteri" class="center-img"></a></p>
                 </div>
             </div>
         </div>

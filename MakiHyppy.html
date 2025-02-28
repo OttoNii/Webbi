@@ -70,6 +70,19 @@
             padding: 20px;
             margin-bottom: 10px;
         }
+        .col-md-5 {
+            padding: 20px;
+        }
+        .col-md-4 {
+            padding: 10px;
+        }
+        .center-img {
+            display: block;
+            margin: 0 auto;
+            padding-top: 10px;
+            width: 50%;
+            height: auto;
+        }
         @media (max-width: 768px) {
             .sidebar {
                 width: 100%;
@@ -96,6 +109,9 @@
                 flex: none;
                 width: 100%;
             }
+            .col-md-5 {
+               padding: 20px;
+            }
         }
     </style>
 </head>
@@ -115,20 +131,20 @@
             <h5 style="font-weight: bold;">Mäkihyppy</h5>
             <p>Mäkihyppy (vanh. mäenlasku) on talviurheilulaji, jossa hypätään suksilla hyppyrimäestä mahdollisimman tyylikkäästi ja mahdollisimman pitkälle. Hyppy katsotaan tyylikkääksi, kun hyppääjä suorittaa ilmalennon ja alastulon hallitusti. Laji keksittiin Norjassa. Mäkihypyssä hyppääjä lähtee liikkeelle vauhtimäen yläosassa olevalta puomilta, laskee mahdollisimman aerodynaamisessa kyyryasennossa alas ramppia, jonka jyrkkyys pienenee loppua kohti, ja ponnistaa hyppyrin nokalta ilmaan tavoitteenaan lentää mahdollisimman pitkälle. Hypyn kokonaispistemäärä koostuu pituuspisteistä, tuomarien antamista tyylipisteistä, tuulesta saaduista plus(myötätuuli) tai miinus(vastatuuli) pisteistä ja mahdollisesta puomikompensaatiosta.</p>
         </div>
-        <div class="row mt-4">
-            <div class="col-md-6">
+        <div class="row mt-4 justify-content-md-center">
+            <div class="col-md-5">
                 <div class="card p-3">
-                    <h5>Viimeisin kilpailu</h5>
+                    <h5 style="font-weight: bold;">Viimeisin kilpailu</h5>
                     <p>Planica HS240 - <img src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Flag_of_Slovenia.svg" alt="Slovenian flag" style="width: 20px; height: auto;"> Slovenia</p>
                     <p><i class="fas fa-medal" style="color: gold;"></i> Voittaja - Matti Nykänen</p>
                     <p><i class="fas fa-medal" style="color: silver;"></i> Hopea - Janne Ahonen</p>
                     <p><i class="fas fa-medal" style="color: #cd7f32;"></i> Pronssi - Takanobu Okabe</p>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <div class="card p-3">
-                    <h5>Tulevat kilpailut</h5>
-                    <p><a href="#">Tähän kalenteri linkki FIS:in kalenteriin</a></p>
+                    <h5 style="font-weight: bold;" >Tulevat kilpailut</h5>
+                    <p><a href="#"><img src="kuvat/KalenterikuvakeLinkkiFissinKalenteriin.jpg" alt="Kalenteri" class="center-img"></a></p>
                 </div>
             </div>
         </div>

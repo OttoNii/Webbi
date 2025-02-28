@@ -70,6 +70,19 @@
             padding: 20px;
             margin-bottom: 10px;
         }
+        .col-md-5 {
+            padding: 20px;
+        }
+        .col-md-4 {
+            padding: 10px;
+        }
+        .center-img {
+            display: block;
+            margin: 0 auto;
+            padding-top: 10px;
+            width: 50%;
+            height: auto;
+        }
         @media (max-width: 768px) {
             .sidebar {
                 width: 100%;
@@ -96,6 +109,9 @@
                 flex: none;
                 width: 100%;
             }
+            .col-md-5 {
+               padding: 20px;
+            }
         }
     </style>
 </head>
@@ -115,20 +131,20 @@
             <h5 style="font-weight: bold;">Yhdistetty</h5>
             <p>Yhdistetty tai pohjoismainen yhdistetty tai yhdistetty hiihto (lyh. YH) on mäkihypystä ja maastohiihdosta koostuva hiihtourheilun kilpailulaji. Yhdistetyssä on useita erilaisia kilpailumuotoja. Nykyisin niin kutsutussa normaalikilpailussa hypätään yksi kierros mäkeä ja loppusijoitukset ratkaistaan hiihtoladulla siten, että parhaat hyppypisteet saanut lähtee ensimmäisenä ladulle ja loput hyppypisteidensä mukaisessa järjestyksessä. Piste-erojen suuruudet vaikuttavat siihen, kuinka pian ensiksi lähteneen perään muut lähtevät. Tätä kilpailumuotoa käytetään toistaiseksi kaikissa arvokisoissa sekä useimmissa yhdistetyn maailmancup -kilpailuissa, ja sitä kutsutaan keksijänsä Gunder Gundersenin mukaan Gundersen-menetelmäksi. Yhdistetyn kattojärjestö on kansainvälinen hiihtoliitto FIS.</p>
         </div>
-        <div class="row mt-4">
-            <div class="col-md-6">
+        <div class="row mt-4 justify-content-md-center">
+            <div class="col-md-5">
                 <div class="card p-3">
-                    <h5>Viimeisin kilpailu</h5>
+                    <h5 style="font-weight: bold;">Viimeisin kilpailu</h5>
                     <p>Trondheim - <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Norway.svg" alt="Norwegian flag" style="width: 20px; height: auto;"> Norja<br> Gundersen </p>
                     <p><i class="fas fa-medal" style="color: gold;"></i> Voittaja - Jarl Magnus Riiber</p>
                     <p><i class="fas fa-medal" style="color: silver;"></i> Hopea - Ilkka Herola</p>
                     <p><i class="fas fa-medal" style="color: #cd7f32;"></i> Pronssi - Julian Schmid</p>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <div class="card p-3">
-                    <h5>Tulevat kilpailut</h5>
-                    <p><a href="#">Tähän kalenteri linkki FIS:in kalenteriin</a></p>
+                    <h5 style="font-weight: bold;" >Tulevat kilpailut</h5>
+                    <p><a href="#"><img src="kuvat/KalenterikuvakeLinkkiFissinKalenteriin.jpg" alt="Kalenteri" class="center-img"></a></p>
                 </div>
             </div>
         </div>
